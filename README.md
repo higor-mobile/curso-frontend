@@ -23,11 +23,12 @@ Mac (brew install git)
 git clone https://github.com/higor-mobile/curso-frontend.git
 
 
-## Comits
+## Commits
 Informações de alterações
 - Após testado tod seu código
 - git add *
-git commit -m "Aqui vai a mensagem"
+- git commit -m "Aqui vai a mensagem"
+- git push (enviar alterações para o repositório)
 
 
 ## GitFlow
