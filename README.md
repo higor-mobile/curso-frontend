@@ -20,6 +20,7 @@ Mac (brew install git)
 ## Criar conta no Github
 
 ## Clonar o projeto
+git clone https://github.com/higor-mobile/curso-frontend.git
 
 
 ## Comits
