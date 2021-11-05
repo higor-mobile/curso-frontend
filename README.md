@@ -32,7 +32,15 @@ Informações de alterações
 - git add *
 - git commit -m "Aqui vai a mensagem"
 - git push (enviar alterações para o repositório)
-
+- git pull (puxar / trazer alterações do Github para minha máquina)
 
 ## GitFlow
 - Fluxo do Git
+
+## Branchs
+São ramificações  / versões paralelas
+
+- main / master (vai para produção, quando o projeto é público)
+- develop
+- DOD Definition of Done: critérios de aceite
+- versionamento 1.0.0
