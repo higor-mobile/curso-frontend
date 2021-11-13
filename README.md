@@ -48,11 +48,16 @@ São ramificações  / versões paralelas
 Comandos
 git checkout -b dev (cria uma branch)
 git checkout master (mudar de branch)
+
+
+git fetch --all
 ## Merge
 Mescla de branchs
 
 
+
 git merge
+
 
 ### Pull Requests
 Mescla de branchs no repositório
