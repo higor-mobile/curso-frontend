@@ -44,3 +44,22 @@ São ramificações  / versões paralelas
 - develop
 - DOD Definition of Done: critérios de aceite
 - versionamento 1.0.0
+
+Comandos
+git checkout -b dev (cria uma branch)
+git checkout master (mudar de branch)
+## Merge
+Mescla de branchs
+
+
+git merge
+
+### Pull Requests
+Mescla de branchs no repositório
+Permite code review
+O repositório resolve os conflitos automaticamente
+
+### Configurando o GitFlow
+git flow init
+git flow feature start {nome-de-feature}
+

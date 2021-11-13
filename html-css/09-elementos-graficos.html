@@ -7,32 +7,24 @@
     <link rel="stylesheet" type="text/css" href="./css/graficos.css">
     <title>Document</title>
 </head>
-<body>
-    
+<body>    
     <h1>Elementos Gráficos</h1>
-
     <div id="grafico-01">
         <img src="./images/coffee-square.jpg" alt="Café">
-
     </div>
-
     <div id="grafico-02">
     </div>
-
     <div id="imagem-vetorial">
         <img src="./images/coffee.svg" alt="Café">
     </div>
-
     <div>
         <canvas id="canvas"></canvas>
     </div>
-
     <script>
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
         ctx.fillStyle = "#00FF99";
         ctx.fillRect(80, 80, 180, 80);
     </script>
-
 </body>
 </html>
