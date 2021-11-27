@@ -11,7 +11,6 @@ body {
 .main-container {
     display: block;
     width: 100vw;
-    max-width: 1198px;
     margin: 0 auto;
     
 }
@@ -85,7 +84,7 @@ section {
     float: left;
     font-size: 1.5rem; /*equilave a 15px*/
     padding: 20px;
-    width: 100%;
+    width: 80%;
 }
 
 section nav {
@@ -136,4 +135,23 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+.cognito {
+    height: 350px !important;
+    overflow: hidden !important;
+}
+
+
+@media (max-width: 420px) {
+    section nav,
+    section article {
+        width: 100%;
+
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
