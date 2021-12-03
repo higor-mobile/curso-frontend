@@ -9,7 +9,7 @@
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/custom.css">
 
-    <title>Aplicando Bootstrap</title>
+    <title>Box for Everything</title>
 
 </head>
 <body>
@@ -18,7 +18,9 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Logo</h1>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="./images/logo.png" alt="Imagem Exemplo" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col">
                     <ul class="nav justify-content-end">
@@ -28,7 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="contatos">Contatos</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>  
         </div>
     </header>
     
@@ -37,12 +39,12 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <h2>Sobre nós</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti eos sed quasi maxime! Laboriosam, dolorem, consectetur modi minima architecto iure dicta voluptatum vel cupiditate corporis impedit suscipit minus velit!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corrupti eos sed quasi maxime! Laboriosam, dolorem, consectetur modi minima architecto iure dicta voluptatum vel cupiditate corporis impedit suscipit minus velit!</p>
+                    <p>Imagine uma empresa que possui uma gama de opções de caixas para diversas utilizadades.</p>
+                    <p>Somos a <b>Box for Everything</b> com o conceito inovador, utilizamos materia prima 100% reciclável. Temos uma preocupação do o planeta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, minus molestias tempore consectetur dicta id aliquid. Repellendus labore, facere dolor doloremque facilis pariatur veniam beatae enim, nisi quaerat, iste corporis?</p>
                     <a class="btn btn-lg btn-success">Botão</a>
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <img src="./images/img-tech.jpg" alt="Imagem Exemplo" class="img-fluid">
+                    <img src="./images/caixas.jpg" alt="Imagem Exemplo" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -57,29 +59,29 @@
                     <h2>Produtos</h2>
 
                    <div class="card">
-                       <img src="./images/img-tech.jpg" alt="Imagem Exemplo" class="img-fluid">
+                       <img src="./images/produto-001.jpg" alt="Imagem Exemplo" class="img-fluid">
                        <div class="class-body">
-                           <h5 class="card-title">Lorem ipsum dolor</h5>
-                           <p class="card-tet">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                           <h5 class="card-title">Caixa Organizadora</h5>
+                           <p class="card-tet">De forma rápida e fácil, organize sua mudança.</p>
                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
                         </div>
                     </div>
 
                     <div class="card">
-                        <img src="./images/img-tech.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <img src="./images/produto-002.jpg" alt="Imagem Exemplo" class="img-fluid">
                         <div class="class-body">
-                            <h5 class="card-title">Lorem ipsum dolor</h5>
-                            <p class="card-tet">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <a class="btn btn-primary" href="#produto-2">ver produto</a>
+                            <h5 class="card-title">Caixa armazenamento de papeis</h5>
+                            <p class="card-tet">Uma ótima opção para organizar livros e documentos.</p>
+                            <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
                          </div>
                      </div>
 
                      <div class="card">
-                        <img src="./images/img-tech.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <img src="./images/produto-003.jpg" alt="Imagem Exemplo" class="img-fluid">
                         <div class="class-body">
-                            <h5 class="card-title">Lorem ipsum dolor</h5>
-                            <p class="card-tet">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                            <a class="btn btn-primary" href="#produto-3">ver produto</a>
+                            <h5 class="card-title">Caixa para Pizza</h5>
+                            <p class="card-tet">Entregue ao seu cliente uma pizza quentinha, ciaxa resistente.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
                          </div>
                      </div>
                 </div>
@@ -124,11 +126,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Produto 1</h5>
+                    <h5 class="modal-title">Caixa Organizadora</h5>
                     <button class="btn-close" data-bs-dismiss="modal" aria-label= "Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h6>Confira o tamanho e os preços</h6>
+                    <h6>Pacote com 100 Unidades</h6>
                     <table class="table table-hover table-striped">
                         <thead> 
                             <tr>
@@ -138,16 +140,16 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>P</td>
-                                <td>R$ 100</td>
+                                <td>300 mm X 300mm X 400mm</td>
+                                <td>R$ 100,00</td>
                             </tr>
                             <tr>
-                                <td>M</td>
-                                <td>R$ 200</td>
+                                <td>400 mm X 400mm X 500mm</td>
+                                <td>R$ 200,00</td>
                             </tr>
                             <tr>
-                                <td>G</td>
-                                <td>R$ 300</td>
+                                <td>500 mm X 500mm X 600mm</td>
+                                <td>R$ 300,00</td>
                             </tr>
                         </tbody>
                     </table>
@@ -160,6 +162,93 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id=modal-2>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Caixa para armazenamento de papeis</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label= "Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Pacote com 100 Unidades</h6>
+                    <table class="table table-hover table-striped">
+                        <thead> 
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>400 mm X 400mm X 400mm</td>
+                                <td>R$ 270,00</td>
+                            </tr>
+                            <tr>
+                                <td>400 mm X 400mm X 600mm</td>
+                                <td>R$ 380,00</td>
+                            </tr>
+                            <tr>
+                                <td>400 mm X 400mm X 800mm</td>
+                                <td>R$ 470,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id=modal-3>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Caixa para Pizza</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label= "Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Pacote com 100 Unidades</h6>
+                    <table class="table table-hover table-striped">
+                        <thead> 
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>50mm X 400mm X 400mm</td>
+                                <td>R$ 100,00</td>
+                            </tr>
+                            <tr>
+                                <td>50mm X 500mm X 500mm</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+                            <tr>
+                                <td>50mm X 700mm X 700mm</td>
+                                <td>R$ 300,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
     <!--Como boa prática sempre utilizar as linhas de script nas útimas linhas, antes do fechamento do body-->
     <script src="./bootstrap/js/bootstrap.bundle.min.js" ></script>
