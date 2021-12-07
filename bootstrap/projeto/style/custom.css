@@ -13,13 +13,3 @@ textarea {
     float: left;
     margin: 5px;
 }
-
-h5 {
-    padding-top: 1rem;
-}
-
-.nav-link {
-    color: rgb(121, 72, 0);
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
